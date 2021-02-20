@@ -21,6 +21,9 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.oplus    u:object_r:hal_fingerprint_default_exec:s0
 /dev/goodix_fp                                                                                   u:object_r:fingerprint_device:s0
 
+# Fingerprint (IFAA)
+/(odm|vendor/odm)/bin/hw/vendor\.oneplus\.hardware\.ifaa@2\.0-service                            u:object_r:hal_ifaa_default_exec:s0
+
 # Init
 /(odm|vendor/odm)/bin/init\.oplus\.sh    u:object_r:vendor_qti_init_shell_exec:s0
 
