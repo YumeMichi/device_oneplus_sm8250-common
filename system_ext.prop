@@ -11,6 +11,9 @@ persist.vendor.bt.a2dp.hal.implementation=true
 persist.vendor.btstack.enable.lpa=true
 persist.vendor.btstack.enable.twsplus=true
 
+# Blur on app-launch
+ro.launcher.blur.appLaunch=0
+
 # Display
 debug.sf.latch_unsignaled=1
 
