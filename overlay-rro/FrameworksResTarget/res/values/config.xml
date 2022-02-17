@@ -84,4 +84,7 @@
      <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
      <bool name="config_telephony5gNonStandalone">true</bool>
 
+    <!-- Exempt ImsService from privacy (location) indicators -->
+    <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
+
 </resources>
