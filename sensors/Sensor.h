@@ -116,6 +116,29 @@ class SysfsPollingOneShotSensor : public OneShotSensor {
     int mPollFd;
 };
 
+class UdfpsSensor : public OneShotSensor {
+  public:
+    UdfpsSensor(int32_t sensorHandle, ISensorsEventCallback* callback);
+    virtual ~UdfpsSensor() override;
+
+    virtual void activate(bool enable) override;
+    virtual void setOperationMode(OperationMode mode) override;
+
+  protected:
+    virtual void run() override;
+    virtual std::vector<Event> readEvents();
+
+  private:
+    void interruptPoll();
+
+    struct pollfd mPolls[2];
+    int mWaitPipeFd[2];
+    int mPollFd;
+
+    int mScreenX;
+    int mScreenY;
+};
+
 }  // namespace implementation
 }  // namespace subhal
 }  // namespace V2_1
