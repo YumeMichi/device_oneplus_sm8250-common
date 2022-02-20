@@ -1,2 +1,5 @@
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
+
+# LMKD
+ro.vendor.lmk.force_inkernel_lmk=true
