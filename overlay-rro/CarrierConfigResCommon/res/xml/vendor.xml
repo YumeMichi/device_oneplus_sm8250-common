@@ -2708,13 +2708,24 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
-        <string-array name="mccmnc" num="6">
+        <string-array name="mccmnc" num="5">
             <item value="46000" />
             <item value="46002" />
             <item value="46004" />
             <item value="46007" />
             <item value="46008" />
-            <item value="46013" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CBN">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="disable_filter_out_conference_host" value="false" />
+        <boolean name="carrier_config_vonr_state" value="false" />
+        <boolean name="carrier_config_vonr_visible" value="true" />
+        <int name="carrier_support_bwp" value="1" />
+        <string-array name="mccmnc" num="1">
+            <item value="46015" />
         </string-array>
     </carrier_config>
     <carrier_config operator="CT">
@@ -2873,7 +2884,7 @@
     </carrier_config>
     <carrier_config operator="France-FREE">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_oplus_sms_ims_support_bool" value="false" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
         <string-array name="mccmnc" num="1">
@@ -3889,6 +3900,12 @@
             <item value="41904" />
         </string-array>
     </carrier_config>
+    <carrier_config operator="ETISATAT">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="42402" />
+        </string-array>
+    </carrier_config>
     <carrier_config operator="Israel Partner">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -3946,7 +3963,10 @@
         </string-array>
     </carrier_config>
     <carrier_config operator="T-Mobile">
-        <string-array name="mccmnc" num="15">
+        <string-array name="mccmnc" num="20">
+            <item value="00101" />
+            <item value="31026" />
+            <item value="31031" />
             <item value="310160" />
             <item value="310200" />
             <item value="310210" />
@@ -3960,8 +3980,10 @@
             <item value="310490" />
             <item value="310660" />
             <item value="310800" />
-            <item value="31026" />
-            <item value="31031" />
+            <item value="311490" />
+            <item value="311660" />
+            <item value="311882" />
+            <item value="312250" />
         </string-array>
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
