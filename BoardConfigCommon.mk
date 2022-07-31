@@ -190,5 +190,8 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/sm8250-common/BoardConfigVendor.mk
 
+# Include Oplus BoardConfig.
+include hardware/oplus/BoardConfigOplus.mk
+
 # vendor extra
 -include vendor/extra/BoardConfigExtra.mk
