@@ -1,8 +1,18 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus 8 Pro (IN2025_11.C.21).
+## from OnePlus 8T (KB2005_11.C.21).
 
 # ACDBs
 vendor/etc/acdbdata/adsp_avs_config.acdb
+
+# ACDBs (kebab)
+odm/etc/acdbdata/Audio_Parameter_Version.txt
+odm/etc/acdbdata/Bluetooth_cal.acdb
+odm/etc/acdbdata/General_cal.acdb
+odm/etc/acdbdata/Global_cal.acdb
+odm/etc/acdbdata/Handset_cal.acdb
+odm/etc/acdbdata/Hdmi_cal.acdb
+odm/etc/acdbdata/Headset_cal.acdb
+odm/etc/acdbdata/Speaker_cal.acdb
 
 # ADSP
 vendor/bin/adsprpcd
@@ -87,6 +97,9 @@ vendor/lib/libaudioparsers.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
 vendor/lib64/libadsprpc.so
+
+# Audio firmware (kebab)
+odm/firmware/tfa98xx.cnt
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -268,6 +281,33 @@ vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|7dc3f932216311875fb598c31cd94837c50cf32e|07034348534c394184ff3ae5809be0e7f222e165
+
+# Camera (kebab)
+odm/etc/camera/ashdr/ncf_pack.ncf
+odm/etc/camera/ashdr/ncf_pack_imx471.ncf
+odm/etc/camera/ashdr/ncf_pack_imx481.ncf
+odm/etc/camera/ashdr/ncf_pack_imx586.ncf
+odm/etc/camera/darksight/darksight_main.bin
+odm/etc/camera/darksight/darksight_ultrawide.bin
+odm/etc/camera/calibrationOutput_uw.bin
+odm/etc/camera/distortion_result.bin
+odm/lib64/camera/components/com.oneplus.node.cfrsnapshot.so
+odm/lib64/camera/components/com.oneplus.node.cfrvideo.so
+odm/lib64/camera/com.qti.sensormodule.holitech_gc02m1b.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_imx481.bin
+odm/lib64/camera/com.qti.sensormodule.semco_imx586.bin
+odm/lib64/camera/com.qti.sensormodule.shine_gc5035.bin
+odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
+odm/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin
+odm/lib64/camera/com.qti.tuned.qtech_imx481.bin
+odm/lib64/camera/com.qti.tuned.semco_imx586.bin
+odm/lib64/camera/com.qti.tuned.shine_gc5035.bin
+odm/lib64/camera/com.qti.tuned.truly_imx471.bin
+odm/lib64/camera/com.qti_kebab.sensor.gc02m1b.so
+odm/lib64/camera/com.qti_kebab.sensor.gc5035.so
+odm/lib64/camera/com.qti_kebab.sensor.imx471.so
+odm/lib64/camera/com.qti_kebab.sensor.imx481.so
+odm/lib64/camera/com.qti_kebab.sensor.imx586.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
@@ -543,6 +583,26 @@ odm/lib64/libgf_ud_hal_18865_G3_oplus.so
 odm/lib64/libgf_ud_hal_20801_G3_oplus.so
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
 
+# Fingerprint (kebab)
+odm/vendor/firmware/gfp9638.b00
+odm/vendor/firmware/gfp9638.b01
+odm/vendor/firmware/gfp9638.b02
+odm/vendor/firmware/gfp9638.b03
+odm/vendor/firmware/gfp9638.b04
+odm/vendor/firmware/gfp9638.b05
+odm/vendor/firmware/gfp9638.b06
+odm/vendor/firmware/gfp9638.b07
+odm/vendor/firmware/gfp9638.mdt
+odm/vendor/firmware/gfp9678.b00
+odm/vendor/firmware/gfp9678.b01
+odm/vendor/firmware/gfp9678.b02
+odm/vendor/firmware/gfp9678.b03
+odm/vendor/firmware/gfp9678.b04
+odm/vendor/firmware/gfp9678.b05
+odm/vendor/firmware/gfp9678.b06
+odm/vendor/firmware/gfp9678.b07
+odm/vendor/firmware/gfp9678.mdt
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
@@ -794,6 +854,14 @@ vendor/lib64/libpwirishalwrapper.so
 # IRQ balance
 vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
+
+# Keymaster (kebab)
+vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
+vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so
+vendor/lib64/libqtikeymaster4.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
@@ -1171,6 +1239,26 @@ vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+
+# Sensors (kebab)
+odm/etc/sensor/config/kona_T0_sx9324_0.json
+odm/etc/sensor/config/kona_T0_sx9324up_0.json
+odm/etc/sensor/config/kona_ak991x_0.json
+odm/etc/sensor/config/kona_bmi26x_0.json
+odm/etc/sensor/config/kona_bmp380_0.json
+odm/etc/sensor/config/kona_mmc5603x_0.json
+odm/etc/sensor/config/kona_qrd_alsps.json
+odm/etc/sensor/config/kona_qrd_bmi26x_0.json
+odm/etc/sensor/config/kona_qrd_cct.json
+odm/etc/sensor/config/kona_qrd_cct_rear.json
+odm/etc/sensor/config/kona_qrd_icm4x6xx.json
+odm/etc/sensor/config/kona_qrd_lsm6dso.json
+odm/etc/sensor/config/kona_qrd_sx933x_0.json
+odm/etc/sensor/config/kona_stk2232_0.json
+odm/etc/sensor/config/kona_sx9324_0.json
+odm/etc/sensor/config/kona_sx9324up_0.json
+odm/etc/sensor/config/kona_tcs3408.json
+odm/etc/sensor/sensor_config.json
 
 # Snapdragon Computer Vision Engine
 vendor/lib/libfastcvdsp_stub.so
@@ -2355,3 +2443,6 @@ vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfdutils_proprietary.so
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
+
+# WiFi (kebab)
+odm/etc/wifi/bdwlan.elf
