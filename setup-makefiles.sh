@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=kebab
+DEVICE=lemonades
 VENDOR=oneplus
 
 # Load extract_utils and do some sanity checks
@@ -25,10 +25,10 @@ fi
 source "${HELPER}"
 
 # Initialize the helper for common
-setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" false
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false
 
 # Warning headers and guards
-write_headers "kebab"
+write_headers "lemonades"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" false

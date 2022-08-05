@@ -3,4 +3,4 @@
 source $ANDROID_BUILD_TOP/system/tools/hidl/update-makefiles-helper.sh
 
 do_makefiles_update \
-  "vendor.oplus:hardware/oplus/interfaces/oplus"
+  "vendor.oplus:device/oneplus/lemonades/interfaces/oplus"

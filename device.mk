@@ -230,10 +230,6 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
 
-# Hotword enrollment
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
-
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
@@ -494,4 +490,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/kebab/kebab-vendor.mk)
+$(call inherit-product, vendor/oneplus/lemonades/lemonades-vendor.mk)

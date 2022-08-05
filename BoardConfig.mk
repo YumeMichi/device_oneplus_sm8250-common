@@ -7,7 +7,7 @@
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-DEVICE_PATH := device/oneplus/kebab
+DEVICE_PATH := device/oneplus/lemonades
 
 # A/B
 AB_OTA_UPDATER := true
@@ -83,7 +83,7 @@ TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Fingerprint
-TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
+TARGET_SURFACEFLINGER_UDFPS_LIB := //device/oneplus/lemonades:libudfps_extension.oplus
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
@@ -173,7 +173,7 @@ CUSTOM_APNS_FILE := $(DEVICE_PATH)/configs/apns-conf.xml
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security
-VENDOR_SECURITY_PATCH := 2022-05-05
+VENDOR_SECURITY_PATCH := 2022-07-05
 
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
@@ -211,4 +211,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Include the proprietary files BoardConfig.
--include vendor/oneplus/kebab/BoardConfigVendor.mk
+-include vendor/oneplus/lemonades/BoardConfigVendor.mk
