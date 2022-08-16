@@ -47,6 +47,9 @@ AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := kona
 
+# Camera
+TARGET_USES_OPLUS_CAMERA := true
+
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
