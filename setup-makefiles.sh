@@ -25,7 +25,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "instantnoodle instantnoodlep kebab lemonades"
+write_headers "oneplus8 oneplus8pro oneplus8t oneplus9r"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
