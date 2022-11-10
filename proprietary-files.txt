@@ -941,7 +941,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Power-off alarm - OOS
-product/app/PowerOffAlarm/PowerOffAlarm.apk|ec59ac430ede59d9fb6677043c06dcbf1d0f7d7e
+product/app/PowerOffAlarm/PowerOffAlarm.apk|eda6abb2108245e143eafc66b42c9da2e37d416b
 system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|2eeefd3c356e63f0109e747b4bb82a3fba1eddf6
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|6446a38537ceb4afdc2cdbbd7645e2616842ba6a
 vendor/bin/power_off_alarm|71e47e029ad444494c286dcd655f534c033a7ab1
