@@ -1,0 +1,6 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- The server that hosts the update files -->
+    <string name="system_update_server_url" translatable="false">"http://192.168.1.9:801/"</string>
+
+</resources>
