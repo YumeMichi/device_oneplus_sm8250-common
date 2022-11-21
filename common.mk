@@ -171,7 +171,6 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
-    ParanoidHubCommon \
     WifiResTarget
 
 # Partitions
