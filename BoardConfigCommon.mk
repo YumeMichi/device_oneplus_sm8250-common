@@ -54,17 +54,13 @@ TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
-# Filesystem
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
-
 # Fingerprint
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(COMMON_PATH)/device_framework_matrix.xml \
-    vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml
-DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+    $(COMMON_PATH)/device_framework_matrix.xml
+DEVICE_MATRIX_FILE := device/qcom/common/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
 # Init
