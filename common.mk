@@ -175,12 +175,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     vendor.qti.hardware.perf@2.2.vendor
 
-# QMI
-PRODUCT_PACKAGES += \
-    libjson \
-    libqti_vndfwk_detect.vendor \
-    libvndfwk_detect_jni.qti.vendor
-
 # QTI
 TARGET_BOARD_PLATFORM := kona
 
@@ -197,15 +191,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     telephony \
     usb \
     wfd
-
-# RIL
-PRODUCT_PACKAGES += \
-    android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.secure_element@1.2.vendor \
-    libprotobuf-cpp-full \
-    librmnetctl
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
