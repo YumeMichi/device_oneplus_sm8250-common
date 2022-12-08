@@ -835,10 +835,6 @@ vendor/lib64/libpwirishalwrapper.so|30684de995f6e17b045b9de9cb890b62896f739f
 -odm/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml|a2ce7558c9b75f223c32120cf4d9f3a3720e12e0
 -odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml|440aae7ed81fbbc641236e7d901c1cec28a8cb4e
 
-# IRQ balance - OOS
-vendor/bin/msm_irqbalance|2ac477da6216b8bf616db5a205dac4059b6d73a4
-vendor/etc/msm_irqbalance.conf|39d0d339b3551e44258360abdb6e55e047983485
-
 # MDM
 vendor/bin/init.mdm.sh
 vendor/bin/ks
