@@ -213,6 +213,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|6e36d92f07d5adee0f3b3379a2
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|2f01b221540ba0c75b34f373b0b1201f10f9f8c0
 
 # Camera - OOS
+odm/bin/vl53l1_daemon_main|4496a01c715909cc94f4964f2c83c0693ce574b4
 odm/etc/camera/fb_default|b263da79c4ed2f261a594b85d047ac1155a5f140
 odm/etc/camera/fwk_config.json|776b1727f10cc2256a859e9594b104f1c30e5a36
 odm/lib64/camera/components/com.qti.stats.haf.so|ec7a66aac77da5f7bd2ffbd1aeefc716a00ee12d
@@ -225,6 +226,8 @@ odm/lib64/camera/fdconfigvideolite.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 odm/lib64/libSonyIMX471RmscLibrary.so|7deb61212e4d44311e99292e61252509c0b80fa2
 odm/lib64/libfastov_dsp.so|017cd09c73e2aa202842cd3f51429c4c5cebe226
 odm/lib64/libormshalclient.so|ed978b05146ef2985a348c2a5afd26050b981b12
+odm/lib64/libvl53l1_daemon.so|9a4d0942d173bcf7a221ff528bb235040bb70780
+odm/lib64/sensors.hal.tof.so|f5e7c5d94a938cea87bf695c70b9a2215c184835
 odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so|f9846285ba063461d1539a44e97361c22ec96fbf
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode|2a77b3b45c4f30972747342f7b2f08b59c40f16d
 vendor/lib/libc++_shared.so|d405bfa6d39e491b7a522a377da03a4b6cbdfd95
