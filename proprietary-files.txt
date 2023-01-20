@@ -1211,7 +1211,7 @@ vendor/lib64/libsnsapi.so|ea1bf97376114fe09cc50a4e2f20ea5daaebea2b
 vendor/lib64/libsnsdiaglog.so|510e684a33913b4f3a94068a697c83d8760d87c0
 vendor/lib64/libssc.so|92c5323689885f4f3c2e40741ffaec3da3c716ee
 vendor/lib64/libssc_default_listener.so|1653233f7454f3be9e8361ab5fde7cd45e9ac9b4
-vendor/lib64/sensors.ssc.so|c52baa36b0257f05660225d5597b75892fdd1c7b
+vendor/lib64/sensors.ssc.so|c52baa36b0257f05660225d5597b75892fdd1c7b|bb086be8bca993edab9309c3e081cf9494200c4b
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|28b4fa4f00eb5b5d4d46fd09e8a2b31bcfff9a76
 -odm/etc/vintf/manifest/manifest_oplusSensor.xml|2792c1ecabc3188f97e5611a71c4336fce30e4a6
 
