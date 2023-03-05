@@ -870,7 +870,7 @@ vendor/lib64/unnhal-acc-hvx.so
 # NFC - OOS
 odm/etc/nfc/libnfc-mtp-SN100.conf_19805:vendor/etc/libnfc-mtp-SN100.conf|f10e27faa3a9bf850b3d260b2f282b5248f67169|fa1ad5feddd477c1e462bcdec7b2c4a3565da094
 odm/etc/nfc/libnfc-nci.conf_19805:vendor/etc/libnfc-nci.conf|9b4525bbaeab4cd59e7eac1f946299142e80bf47
-odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so|4adda2c9449cdc8f66fc3c653153f8b69c7dc78c
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_53:vendor/firmware/sn100u.bin|797f5a57fa9247cd41d0e6c384e9465eb586a626
 
 # NPU
 vendor/bin/npu_launcher
