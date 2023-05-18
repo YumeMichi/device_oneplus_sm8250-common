@@ -56,6 +56,10 @@ on boot
     chown system system /proc/touchpanel/i2c/double_tap_pressed
     chmod 0660 /proc/touchpanel/i2c/double_tap_pressed
 
+    # Single Tap Sensor
+    chown system system /proc/touchpanel/i2c/single_tap_pressed
+    chmod 0660 /proc/touchpanel/i2c/single_tap_pressed
+
     # TOF
     chown cameraserver cameraserver /dev/stmvl53l1_ranging
 

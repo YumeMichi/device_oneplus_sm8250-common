@@ -19,7 +19,6 @@
     </string-array>
 
     <!-- Gestures' key codes. If the gesture is not supported set it to 0. -->
-    <integer name="config_singleTapKeyCode">262</integer>
     <integer name="config_drawVKeyCode">248</integer>
     <integer name="config_drawInverseVKeyCode">249</integer>
     <integer name="config_drawOKeyCode">252</integer>
@@ -45,7 +44,6 @@
              7 - Previous
              8 - Camera
              9 - Dialer -->
-    <integer name="config_singleTapDefault">2</integer>
     <integer name="config_drawVDefault">3</integer>
     <integer name="config_drawODefault">8</integer>
     <integer name="config_twoFingerSwipeDefault">5</integer>
@@ -143,6 +141,9 @@
 
     <!-- Type of the double tap sensor. Empty if double tap is not supported. -->
      <string name="config_dozeDoubleTapSensorType" translatable="false">co.aospa.sensor.double_tap</string>
+
+    <!-- Type of the tap sensor. Empty if tap is not supported. -->
+    <string name="config_dozeTapSensorType" translatable="false">co.aospa.sensor.single_tap</string>
 
     <!-- Flag specifying whether WFC over IMS should be available for carrier: independent of
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
