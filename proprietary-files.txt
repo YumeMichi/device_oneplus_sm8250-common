@@ -593,48 +593,7 @@ vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib/libdiag.so
 vendor/lib64/libdiag.so
 
-# Display (Features) - OOS
-vendor/bin/feature_enabler_client|0e25e593af2f9f3520d28980ad60a67a5cc5385e
-vendor/etc/OPlus_QC_LTM_Commercial_SM8250_2020_02_07.pfm|b4ee4b1377f2f267d51181f040fe1872431e6d29
-vendor/etc/Oppo_QC_LTM_Commercial_2020_01_03.pfm|a99bbcf592ff7317ca51e4bc4c2847c923c54031
-vendor/etc/init/feature_enabler_client.rc|7c8e7cf20093d1a6d94d7de2debd53a7e51f8c29
-
-# Display (HDR) - OOS
-vendor/lib64/libhdr_tm.so|4be3cfff1ef40cbc6ad329b79c60881263aa6723
-
-# Display (HWC) - OOS
-vendor/bin/hw/vendor.qti.hardware.display.composer-service|8bb81cb9626da442af189956fdc9784a08daacc4
-vendor/lib64/libdisplayconfig.qti.so|0c7b510f7e270a641606dd8eb54a5791b1951f63
-vendor/lib64/libhistogram.so|1ab688e316a5a330bde297757bfae437340669b8
-vendor/lib64/libqdutils.so|4db2d19f8739672f093d8885ec899ea96d540b28
-vendor/lib64/libsdmcore.so|61f13b7c6f0e9ece49cc661a4a338a82c3cb6d73
-vendor/lib64/libsdmutils.so|3933630747be422e038aedb068d0da660f559145
-
-# Display (SDM) - OOS
-vendor/lib64/libdisplayqos.so|15701f18257c43be5657bbd867a8acf1f469e373
-vendor/lib64/libdisplayskuutils.so|3ddb2ffe55aa9aef686cf3be00ae5e0d1d8f9d93
-vendor/lib64/libqseed3.so|c9fb729cf48278d0c87d27c0af17ae3a8ccb1bf7
-vendor/lib64/libsdedrm.so|1872db53de4762f7269e7012daec9577f9d8d08e
-vendor/lib64/libsdm-color.so|29cbc16f6fa573d21f48e2be2ff0d51de3357378
-vendor/lib64/libsdm-colormgr-algo.so|1fb7f3cb11557bbf677afb5d6eda0e4e9fd3ac58
-vendor/lib64/libsdm-diag.so|57e8b57e52b98a0a151434414756fcf91147a511
-vendor/lib64/libsdm-disp-vndapis.so|fd0b0beac164c92bfa012dbc059cb50cdde2dec6
-vendor/lib64/libsdmextension.so|61d8c94466b05b82f005f85c80f054b4f9d5e4d3
-vendor/lib64/libtinyxml2_1.so|fb0a2b16e5cfd28515268edc5c2345190d1ef4e5
-
 # Display calibration data - OOS
-vendor/etc/ltm_config_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml|07739eb303c58be3ae3955fe36621ab4ccd947fe
-vendor/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml|07739eb303c58be3ae3955fe36621ab4ccd947fe
-vendor/etc/ltm_config_samsung_AMS678UW01_qhd_panel.xml|f5e1304bcbdb0a1ddbcfcb89b1db52b96d20dd1c
-vendor/etc/ltm_config_samsung_S6E3HC3_dsc_cmd_mode_panel.xml|ca9ad48a7e0b721c59d93bf66ef5851613472862
-vendor/etc/ltm_config_samsung_SOFE03F_dsc_cmd_mode_panel.xml|b4c1f3e50cd5c8ef5df2ca9d10d1d55d1abeb27b
-vendor/etc/ltm_config_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml|07739eb303c58be3ae3955fe36621ab4ccd947fe
-vendor/etc/ltm_config_samsung_amb655x_fhd_cmd_mode_dsc_dsi_panel.xml|4b89dddf4e9aeb93fcf8b067da539de895a68895
-vendor/etc/ltm_config_samsung_amb655xl08_amoled_fhd+_panel.xml|b4c1f3e50cd5c8ef5df2ca9d10d1d55d1abeb27b
-vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_21623.xml|924ea465ab1e934da568334ee3bd772ec7e78c20
-vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml|b4c1f3e50cd5c8ef5df2ca9d10d1d55d1abeb27b
-vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml|b4c1f3e50cd5c8ef5df2ca9d10d1d55d1abeb27b
-vendor/etc/ltm_config_samsung_fhd_amoled.xml|f5e1304bcbdb0a1ddbcfcb89b1db52b96d20dd1c
 vendor/etc/qdcm_calib_data_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml|a4172222a6aaf938fcf70b726f829d1ca02705cc|a16503f41e6b5308efd012a2966e7ee7161d1b4b
 vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml|11d8798a7fd52cb5df625cffddb579c521ee00d3
 vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml|11d8798a7fd52cb5df625cffddb579c521ee00d3
@@ -676,18 +635,18 @@ vendor/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml|
 vendor/etc/qdcm_calib_data_td4330_v2_cmd_mode_dsi_truly_panel.xml|b25bd6cbadf7a26e37b8a365cddf41608d21545e
 vendor/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml|b25bd6cbadf7a26e37b8a365cddf41608d21545e
 
-# Display postprocessing - OOS
-vendor/bin/hw/vendor.display.color@1.0-service|9c77c3655befc1c53f842e1b9605b83e3dc64259
-vendor/bin/ppd|c478fa8957564bf1b2649b6ba80c07f72b0b318f
-vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
-vendor/lib64/libdisp-aba.so|902839da31464e54bd4756747db2dd7ad867484f
-vendor/lib64/vendor.display.color@1.0.so|f1f7d91884c8e3c9ea300e67f5df91057094de40
-vendor/lib64/vendor.display.color@1.1.so|e7ab973147c3e03e31efacee13e8d8a9c841eb7b
-vendor/lib64/vendor.display.color@1.2.so|fe9ec904459b7675297e5ef6883ae98b438fb77f
-vendor/lib64/vendor.display.color@1.3.so|32c721417938e870d34170c08c93c817e7d4447b
-vendor/lib64/vendor.display.color@1.4.so|ff2233791d4e2c5c0da0f194546c42fc0eb68164
-vendor/lib64/vendor.display.color@1.5.so|de239337ad42863e5eabeff196b20345d0dce00c
-vendor/lib64/vendor.display.postproc@1.0.so|e94ad60150b7b6b1c09133c03341044a32cdfde7
+# Display postprocessing
+vendor/bin/hw/vendor.display.color@1.0-service
+vendor/bin/ppd
+vendor/etc/init/vendor.display.color@1.0-service.rc
+vendor/lib64/libdisp-aba.so
+vendor/lib64/vendor.display.color@1.0.so
+vendor/lib64/vendor.display.color@1.1.so
+vendor/lib64/vendor.display.color@1.2.so
+vendor/lib64/vendor.display.color@1.3.so
+vendor/lib64/vendor.display.color@1.4.so
+vendor/lib64/vendor.display.color@1.5.so
+vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM
 vendor/bin/dpmQmiMgr
@@ -704,10 +663,6 @@ vendor/lib/libfastcvdsp_stub.so
 -vendor/lib/libfastcvopt.so
 vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
-
-# Feature enabler client - OOS
-vendor/bin/feature_enabler_client|0e25e593af2f9f3520d28980ad60a67a5cc5385e
-vendor/etc/init/feature_enabler_client.rc|7c8e7cf20093d1a6d94d7de2debd53a7e51f8c29
 
 # Fingerprint - OOS
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service|53ac8452d69b675667cf90a9fe892786f49b3998|71b367720573d47095a4577bde0c209b45781901
@@ -884,27 +839,6 @@ vendor/firmware/ipa_uc.b01|f8e8124ff10e0945200eced30a2a49b9d0aa0d41
 vendor/firmware/ipa_uc.b02|50d1bdacebc3bd34c501fd833cd518deff1709a3
 vendor/firmware/ipa_uc.elf|36738b27ed428e8b8199668d822c57a253ab31be
 vendor/firmware/ipa_uc.mdt|d8513c2a7e69f4b5786103a282f454188529a8af
-
-# Iris - OOS
-odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service|7299e0afc8acd50befe47cb49a8c7fd8c4bd44ac
-odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc|4022d7a810e97de253cd7bd55692a90d30fbf8f1
-odm/lib64/libpwirisIoctlWrapper.so|8f9ace997775fbe42fc4bc1bf9893d2321ce0db7
-odm/lib64/libpwirisPCS.so|0426e01b5b907a882ee552bea597db976454ce27
-odm/lib64/libpwiriscalibrate.so|af00de1910f0d18f9fa2eb5aac7c8c1326a3eff1
-odm/lib64/libpwirisfeature.so|6ff9293819b504e769e1ca884b694b23e3c15f55
-odm/lib64/libpwirishalwrapper.so|30684de995f6e17b045b9de9cb890b62896f739f
-odm/lib64/libpwirispq.so|e91dd743f1d2395a0da4ced3ae4a260c74f90b37
-odm/lib64/libpwirisservice.so|df8fbe36d42a18b0adfe6629267bdc0c8d24b95e
-odm/lib64/libpwirissoft.so|e6fddaebca2981a09a46cf5397d47379b455228a|c0c3eb5df1210030190f634eceded4e3daff8506
-odm/lib64/libpwsnapdragoncolor.so|f1354fa240ae07090b21e56267cbd829c0ca421a
-odm/lib64/libpwsoftirisPCS.so|dfb9adabbc9d3427442bd77549041098c0f9fe25
-odm/lib64/vendor.pixelworks.hardware.display@1.0.so|33d0dacd29daf5b6328dc1ee3664859b29f34d64
-odm/lib64/vendor.pixelworks.hardware.display@1.1.so|13bbb0dd247b187f120b8968c04efdc4370644d6
-odm/lib64/vendor.pixelworks.hardware.feature@1.0.so|aa87bda60ad1d53db8624378aa887a1f8f39ab42
-vendor/lib64/libpwirisfeature.so|6ff9293819b504e769e1ca884b694b23e3c15f55
-vendor/lib64/libpwirishalwrapper.so|30684de995f6e17b045b9de9cb890b62896f739f
--odm/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml|a2ce7558c9b75f223c32120cf4d9f3a3720e12e0
--odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml|440aae7ed81fbbc641236e7d901c1cec28a8cb4e
 
 # MDM
 vendor/bin/init.mdm.sh
