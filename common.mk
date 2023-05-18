@@ -74,6 +74,9 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
 
+# Display
+TARGET_USES_FOD_ZPOS := true
+
 # Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze

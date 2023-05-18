@@ -25,12 +25,6 @@ ro.soc.model=SM8250
 ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Display
-vendor.display.disable_system_load_check=1
-vendor.display.not_switch_qhd_120hz=1
-vendor.display.primary_mixer_stages=9
-vendor.display.show_memc_tomast=true
-vendor.display.smomo_camera_support=1
-vendor.display.smomo_game_support=0
 vendor.display.use_layer_ext=1
 
 # DPM
