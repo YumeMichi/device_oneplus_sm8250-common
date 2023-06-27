@@ -96,9 +96,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
-# GPS
-LOC_HIDL_VERSION = 4.0
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
