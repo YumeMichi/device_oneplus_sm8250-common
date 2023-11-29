@@ -7,3 +7,9 @@ runtime_resource_overlay {
     name: "WifiResTarget",
     vendor: true,
 }
+
+runtime_resource_overlay {
+    name: "WifiResTargetMainline",
+    manifest: "AndroidGoogleManifest.xml",
+    vendor: true,
+}
